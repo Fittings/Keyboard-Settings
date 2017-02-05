@@ -1,6 +1,6 @@
 # HHKB SpaceFN layout.
-A variant on the spaceFN layout for the HHKB.
-Should be used with the Hasu tmk_keyboard program.
+A modification to the spaceFN layout from [tmk_keyboard.](https://github.com/tmk/tmk_keyboard)
+
 
 # Summary
 * Swaps the keyboard layer to an alternative when holding down the spacebar.
