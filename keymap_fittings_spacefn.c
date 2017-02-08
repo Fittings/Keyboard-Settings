@@ -47,9 +47,9 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     /* Layer 2: SpaceFN
      * ,-----------------------------------------------------------.
-     * |`  | F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|   |   |
+     * |Bs | F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|   |   |
      * |-----------------------------------------------------------|
-     * |     |Hom|Up |End|Rtn|   |   |   |   |   |   |   |   |     |
+     * |Del   |Hom|Up |End|Rtn|   |   |   |   |   |   |   |   |     |
      * |-----------------------------------------------------------|
      * |      |Lef|Dow|Rig|   |   |   |   |   |   |   |   |        |
      * |-----------------------------------------------------------|
@@ -59,7 +59,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *       `-------------------------------------------'
      */
     KEYMAP(BSPC, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12,  INS, DEL,   \
-           TRNS,HOME,  UP, END, PENT,TRNS,TRNS,TRNS,TRNS,TRNS, TRNS,TRNS,TRNS, TRNS,        \
+            DEL,HOME,  UP, END, PENT,TRNS,TRNS,TRNS,TRNS,TRNS, TRNS,TRNS,TRNS, TRNS,        \
            TRNS,LEFT,DOWN,RGHT,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,            \
            TRNS,TRNS,TRNS,TRNS,TRNS,SPC, TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, NO,              \
                 TRNS,TRNS,          TRNS,               TRNS,TRNS),
